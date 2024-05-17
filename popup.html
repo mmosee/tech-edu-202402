@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Popup</title>
+    <script src="assets/js/include.js"></script>
+</head>
+<body style="height: 100vh; background: #ddd">
+
+    <!-- header : 시작 -->
+    <header class="header"></header>
+    <!-- header : 끝 -->
+
+    <main class="main container">
+        <div class="content">
+
+            <div>
+                <button type="button" data-popup-open="mainPopup">레이어 팝업 열기</button>
+                <button type="button" data-popup-open="mainPopup">쿠키 팝업 열기</button>
+            </div>
+
+            <!-- Cookie popup : 시작 -->
+            <section class="section">
+                <!-- 기본 팝업 : 시작 -->
+                <div class="popup-wrap dimmed-type cookie-type" data-popup="mainPopup">
+                    <div class="flex-wrap">
+                        <!-- 팝업창 : 시작 -->
+                        <div class="popup">
+                            <!-- 헤더 : 시작 -->
+                            <!-- <div class="popup-header">
+                                <h3 class="tit">팝업타이틀팝업타이틀팝업타이틀팝업타이틀</h3>
+                                <button class="popup-top-close-btn" data-popup-close="mainPopup" type="button">
+                                    <span class="icon icon-cross-w">x</span>
+                                </button>
+                            </div> -->
+                            <!-- //헤더 : 끝 -->
+                            <!-- <div class="popup-body">
+                                <div>
+                                    <p class="tit tac fs-18 fc-r">제목입니다</p>
+                                    <p class="sub-tit">서브입니다</p>
+                                    <p class="desc">설명입니다</p>
+                                </div>
+                            </div> -->
+
+                            <div class="popup-body">
+                                <a href="https://naver.com">
+                                    <img src="https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png">
+                                </a>
+                            </div>
+
+                            <!-- <div class="popup-footer">
+                                <button class="btn bg-info btn-round" data-popup-close="mainPopup" type="button">취소</button>
+                                <button class="btn bg-primary btn-round" data-popup-close="mainPopup" type="button">확인</button>
+                                <button class="btn btn-round" data-popup-close="mainPopup" type="button">확인</button>
+                            </div> -->
+                            <div class="popup-footer">
+                                <span>
+                                    <input type="checkbox" id="popupCookie">
+                                    <label for="popupCookie">오늘 하루 열지 않기</label>
+                                </span>
+                                <button class="btn bg-info btn-round" data-popup-close="mainPopup" type="button">취소</button>
+                            </div>
+
+                            <!-- <div class="popup-footer">
+                                <button class="btn bg-info isround" data-popup-close="mainPopup" type="button">취소</button>
+                                <button class="btn bg-primary isround size-m" data-popup-close="mainPopup" type="button">확인</button>
+                                <button class="btn isround size-l" data-popup-close="mainPopup" type="button">확인</button>
+                            </div>
+                            <div class="popup-footer">
+                                <button class="btn bg-primary isround size-w" data-popup-close="mainPopup" type="button">확인</button>
+                            </div> -->
+                        </div>
+                        <!-- //팝업창 : 끝 -->
+                    </div>
+                </div>
+    <!-- //기본 팝업 : 끝 -->
+            </section>
+            <!-- Cookie popup : 시작 -->
+
+            <!-- alert popup : 시작 -->
+            <section class="section">
+                <!-- 기본 팝업 : 시작 -->
+                <div class="popup-wrap alert-type" data-popup="mainPopup">
+                    <div class="flex-wrap">
+                        <!-- 팝업창 : 시작 -->
+                        <div class="popup">
+                            <!-- 헤더 : 시작 -->
+                            <!-- <div class="popup-header">
+                                <h3 class="tit">팝업타이틀팝업타이틀팝업타이틀팝업타이틀</h3>
+                                <button class="popup-top-close-btn" data-popup-close="mainPopup" type="button">
+                                    <span class="icon icon-cross-w">x</span>
+                                </button>
+                            </div> -->
+                            <!-- //헤더 : 끝 -->
+                            <!-- <div class="popup-body">
+                                <div>
+                                    <p class="tit tac fs-18 fc-r">제목입니다</p>
+                                    <p class="sub-tit">서브입니다</p>
+                                    <p class="desc">설명입니다</p>
+                                </div>
+                            </div> -->
+
+                            <div class="popup-body">
+                                <a href="https://naver.com">
+                                    <img src="https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png">
+                                </a>
+                            </div>
+
+                            <!-- <div class="popup-footer">
+                                <button class="btn bg-info btn-round" data-popup-close="mainPopup" type="button">취소</button>
+                                <button class="btn bg-primary btn-round" data-popup-close="mainPopup" type="button">확인</button>
+                                <button class="btn btn-round" data-popup-close="mainPopup" type="button">확인</button>
+                            </div> -->
+                            <div class="popup-footer">
+                                <span>
+                                    <input type="checkbox" id="popupCookie">
+                                    <label for="popupCookie">오늘 하루 열지 않기</label>
+                                </span>
+                                <button class="btn bg-info btn-round" data-popup-close="mainPopup" type="button">취소</button>
+                            </div>
+
+                            <!-- <div class="popup-footer">
+                                <button class="btn bg-info isround" data-popup-close="mainPopup" type="button">취소</button>
+                                <button class="btn bg-primary isround size-m" data-popup-close="mainPopup" type="button">확인</button>
+                                <button class="btn isround size-l" data-popup-close="mainPopup" type="button">확인</button>
+                            </div>
+                            <div class="popup-footer">
+                                <button class="btn bg-primary isround size-w" data-popup-close="mainPopup" type="button">확인</button>
+                            </div> -->
+                        </div>
+                        <!-- //팝업창 : 끝 -->
+                    </div>
+                </div>
+    <!-- //기본 팝업 : 끝 -->
+            </section>
+            <!-- alert popup : 시작 -->
+        </div>
+    </main>
+
+
+
+
+
+
+    
+
+    <footer class="footer"></footer>
+
+    <script>
+        
+        
+    </script>
+</body>
+</html>

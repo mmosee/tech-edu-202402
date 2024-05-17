@@ -1,0 +1,20 @@
+:root {
+    --default__font-size : 20px;
+    --default__font-color: #fff;
+    --default__background-color: #333;
+
+
+}
+.dark-style {background:var(--default__background-color);color:var(--default__font-color)}
+
+.header {}
+.footer {}
+
+.tabs .btn-list {display:flex}
+.tabs .btn-list > li {width:100px}
+.tabs .tab-btn {display:block;text-align:center;font-size:13px;line-height:36px;height:36px;}
+.tabs .tab-btn.is-active {background:#0e8c2a;color:#fff;}
+.tabs .tab-content {display:none;border:1px solid #ddd;}
+.tabs .tab-content.is-show {display:block}
+.tabs .tab-content > .title {font-size:24px;line-height:1;font-weight:700;background:#00a6fb;color:#fff;padding:20px;}
+.tabs .tab-content > p {padding:20px;}
